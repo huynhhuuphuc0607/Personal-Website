@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  color: #66BFBF;
+
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  color:#66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+  color: #11999E;
+}
+
+hr{
+  border: dotted #D9CCD1 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+div {}
+
+a{
+  color: #11999E;
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+.top-container {
+  background-color: #beebe9;
+  position: relative;
+  padding-top: 200px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color:#66BFBF;
+  padding: 50px 0 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.underline-text {
+  text-decoration: underline;
+}
+
+.profile-row{
+  width: 60%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-row{
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.android-img {
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.flutter-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-img{
+  margin-top: 30px;
+  width: 10%;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+
+.copyright{
+  width: 0.75rem;
+  padding: 20px 0px;
+}
+.btn {
+  font-family: 'Open Sans', sans-serif;
+	background:linear-gradient(to bottom, #11cdd4 5%, #119999 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #30E3CB 5%, #2BC4AD 100%);
+
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
